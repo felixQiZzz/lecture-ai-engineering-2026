@@ -34,9 +34,6 @@ def ask(question: str) -> str:
 
     return response.text
 
-    return response.text
-
-
 def main() -> None:
     parser = argparse.ArgumentParser(description="素のLLMに質問する")
     parser.add_argument("question", nargs="?", default=DEFAULT_QUESTION)
